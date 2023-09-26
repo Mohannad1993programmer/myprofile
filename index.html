@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>responsive personal portoflio website design tutorail</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="user">
+			<img src="pic1.jpg">
+			<h3 class="name">Mohannad Ali</h3>
+			<p class="post">IT Employee</p> 
+		</div>	
+
+		<nav class="navbar">
+			<ul>
+				<li><a href="#home">home</a></li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#education">education</a></li>
+				<li><a href="#portoflio">projects</a></li>
+				<li><a href="#contact">contact me</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="menu" class="fas fa-bars"></div>
+
+	<section class="home" id="home">
+		<h3>HI THERE!</h3>
+		<h1>I'M <span>mohannad ali</span></h1>
+		<p>I am a hardworking, honest individual. I am a good timekeeper, always willing to learn new skills. I am able to work independently in busy environment and within a team setting</p>
+		<a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+		
+	</section>
+
+	<section class="about" id="about">
+		<h1 class="heading"> <span>about</span> me </h1>
+		<div class="row">
+			<div class="info">
+				<h3> <span> name : </span> mohannad ali </h3>
+				<h3> <span> age : </span> 30 </h3>
+				<h3> <span> qualification : </span> master in computer engineer </h3>
+				<h3> <span> nationallty: </span> iraqi  </h3>
+				<h3> <span> languages : </span> arabic english sweden </h3>
+				<a href="Mohanadcv.pdf" download><button class="btn"> download CV <i class="fas fa-download"></i></button></a>
+				
+			</div>
+
+			<div class="counter">
+				
+				<div class="box">
+					<span>3+</span>
+					<h3>years of experience</h3>
+				</div>
+
+				<div class="box">
+					<span>10+</span>
+					<h3>project completed</h3>
+				</div>
+
+				<div class="box">
+					<span>20+</span>
+					<h3>happy clients</h3>
+				</div>
+			</div>
+
+		</div>	
+	</section>
+
+	<section class="education" id="education">
+		<h1 class="heading"> my <span>education</span> </h1>
+
+		<div class="box-container">
+			<div class="box">
+				<i class="fas fa-graduation-cap"></i>
+				<span>2012-2016</span>
+				<h3>beruit arab university</h3>
+				<p>Bachelor of Information Technology</p>
+			</div>
+
+				<div class="box">
+				<i class="fas fa-graduation-cap"></i>
+				<span>2019-2022</span>
+				<h3>Islamic University (IUL)</h3>
+				<p>Master of computer engineer</p>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="portoflio" id="portoflio">
+		<h1 class="heading"> my <span>projects</span></h1>
+		<div class="box-container">
+
+			<div class="box">
+				  <img src="projects/fortinate.png">
+			</div>
+			<div class="box">
+				<a href="https://mohannad1993programmer.itch.io/snakeupdate?secret=pGEEjvoMfIiQ3z5X4GY6hUwszIM"><img src="projects/snake_python.png"></a>
+			</div>
+
+			<div class="box">
+				<img src="projects/realestate.png">
+			</div>
+
+			<div class="box">
+				<img src="projects/flappybird.png">
+			</div>
+
+			<div class="box">
+				<img src="projects/mario.png">
+			</div>
+
+			<div class="box">
+				<img src="projects/pacman.png">
+			</div>
+
+			<div class="box">
+				<img src="projects/spaceinvender.png">
+			</div>
+
+			<div class="box">
+				<img src="projects/main page.png">
+			</div>
+
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<h1 class="heading"> <span>contact</span> me </h1>
+		<div class="row">
+			<div class="content">
+				<h3 class="title">contact info</h3>
+				<div class="info">
+					<h3><i class="fa-solid fa-envelope"></i>mousawi.mohannad@gmail.com </h3>
+					<h3><i class="fas fa-phone"></i>+964 7724591188 </h3>
+					<h3><i class="fa-solid fa-location-dot"></i> Iraq-Baghdad </h3>
+				</div>
+			</div>
+		
+
+		<form acction="">
+			<input type="text" class="box" name="" placeholder="name">
+			<input type="email" class="box" name="" placeholder="email">
+			<input type="text" class="box" name="" placeholder="project">
+			<textarea cols="30" rows="10" class="box message" placeholder="message"></textarea>
+			<button type="submit" class="btn"> send <i class="fa-solid fa-paper-plane"></i></button>
+			
+		</form>
+		</div>
+	</section>
+
+	<a href="#home" class="top">
+		<img src="projects/rocket.png" width="20px">
+		
+	</a>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
